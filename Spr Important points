@@ -1,0 +1,2 @@
+regarding the queries
+1) If u place a file called schema.sql in src/main/resources -for example if u wrote an insert query in that schema.sql that query will be executed automatically
