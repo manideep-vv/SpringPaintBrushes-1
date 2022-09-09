@@ -1,0 +1,99 @@
+COMPLETE DEBUGGING GUIDE
+
+https://github.com/in28minutes/spring-microservices-v2/blob/main/03.microservices/01-step-by-step-changes/microservices-v2-1.md#eureka---step-19-to-21
+
+
+
+Top Recommendation From Debugging Guide:
+
+Give these settings a try individually in application.properties of all microservices (currency-exchange, currency-conversion) to see if they help
+
+eureka.instance.prefer-ip-address=true
+OR
+
+eureka.instance.hostname=localhost
+
+200)
+Some of these URLs may be complex to write by hand:
+
+Refer back to here if you have problems in the next steps.
+
+
+
+Initial
+
+- http://localhost:8765/CURRENCY-EXCHANGE/currency-exchange/from/USD/to/INR
+
+- http://localhost:8765/CURRENCY-CONVERSION/currency-conversion/from/USD/to/INR/quantity/10
+
+- http://localhost:8765/CURRENCY-CONVERSION/currency-conversion-feign/from/USD/to/INR/quantity/10
+
+
+
+Lower Case
+
+- http://localhost:8765/currency-exchange/currency-exchange/from/USD/to/INR
+
+- http://localhost:8765/currency-conversion/currency-conversion/from/USD/to/INR/quantity/10
+
+- http://localhost:8765/currency-conversion/currency-conversion-feign/from/USD/to/INR/quantity/10
+
+
+
+Custom Routes
+
+- http://localhost:8765/currency-exchange/from/USD/to/INR
+
+- http://localhost:8765/currency-conversion/from/USD/to/INR/quantity/10
+
+- http://localhost:8765/currency-conversion-feign/from/USD/to/INR/quantity/10
+
+- http://localhost:8765/currency-conversion-new/from/USD/to/INR/quantity/10
+
+COMPLETE DEBUGGING GUIDE
+
+https://github.com/in28minutes/spring-microservices-v2/blob/main/03.microservices/01-step-by-step-changes/microservices-v2-1.md#spring-cloud-api-gateway---step-22-to-step-25
+
+
+
+TOP Recommendation from Debugging Guide:
+
+(6) Some student reported success when using lower-case-service-id instead of spring.cloud.gateway.discovery.locator.lowerCaseServiceId. See if it helps!
+
+spring.cloud.gateway.discovery.locator.enabled=true
+ 
+spring.cloud.gateway.discovery.locator.lower-case-service-id=true
+
+
+
+
+Course content
+COMPLETE DEBUGGING GUIDE
+
+https://github.com/in28minutes/spring-microservices-v2/blob/main/03.microservices/01-step-by-step-changes/microservices-v2-1.md#spring-cloud-api-gateway---step-22-to-step-25
+
+
+
+TOP Recommendation from Debugging Guide:
+
+(6) Some student reported success when using lower-case-service-id instead of spring.cloud.gateway.discovery.locator.lowerCaseServiceId. See if it helps!
+
+spring.cloud.gateway.discovery.locator.enabled=true
+ 
+spring.cloud.gateway.discovery.locator.lower-case-service-id=true
+
+
+
+
+Course content
+https://github.com/in28minutes/spring-microservices-v2/blob/main/03.microservices/01-step-by-step-changes/microservices-v2-1.md#spring-cloud-api-gateway---step-22-to-step-25
+
+
+
+TOP Recommendation from Debugging Guide:
+
+(6) Some student reported success when using lower-case-service-id instead of spring.cloud.gateway.discovery.locator.lowerCaseServiceId. See if it helps!
+
+spring.cloud.gateway.discovery.locator.enabled=true
+ 
+spring.cloud.gateway.discovery.locator.lower-case-service-id=true
