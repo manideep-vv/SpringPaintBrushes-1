@@ -7,6 +7,16 @@ https://github.com/in28minutes/getting-started-for-beginners-v2
 https://github.com/in28minutes/spring-microservices
 https://github.com/in28minutes/spring-microservices-v2
 https://github.com/in28minutes/spring-microservices-v2/blob/main/03.microservices/01-step-by-step-changes/microservices-v2-1.md#step-01	
+
+feing client and ribbon
+download 2 propjects here -currency converison service and exchange service
+https://github.com/in28minutes/spring-microservices-v2/tree/3d78a109505eab1c756bc3843bad74d3f844e4a9/98.microservices-starting-point-for-v1-learners
+https://github.com/in28minutes/in28minutes-initiatives/tree/master/The-in28Minutes-TroubleshootingGuide-And-FAQ#debugging-problems-with-feign-and-ribbon
+
+eureka codes git hub
+https://github.com/in28minutes/in28minutes-initiatives/tree/master/The-in28Minutes-TroubleshootingGuide-And-FAQ#debugging-problems-with-naming-server-eureka-and-ribbon
+
+
 all prpjects avaiable in 
 Here is the link to bookmark:
 
