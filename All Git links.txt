@@ -1,3 +1,41 @@
+############## official learning links #######################
+# most liked 
+https://spring.io/projects/spring-batch // it has all video links and books links
+
+
+#########################spring official git links##############################
+https://github.com/spring-projects/
+https://github.com/spring-guides
+
+
+
+To learn spring batch
+==================================
+https://spring.io/projects/spring-batch
+
+read pro spring batch book
+https://github.com/mminella/LearningSpringBatch
+michel t minella is the lead of spring batch
+https://github.com/mminella/Batch-In-2019 --ppt 
+https://github.com/benas/spring-batch-sandbox/tree/master/batch2442
+https://github.com/benas/spring-batch-sandbox/tree/master/batch2462
+https://github.com/fmbenhassine/spring-batch-lab/tree/main/
+https://benas.github.io
+
+
+https://github.com/spring-projects/spring-batch
+https://docs.spring.io/spring-batch/docs/3.0.x/reference/html/index.html
+https://github.com/javabyraghu/SpringBoot2BatchCsvToMySQL
+
+
+
+
+
+
+
+
+
+
 =========spring related git links==============================
 
 #in28minutes Git links for reference
@@ -27,7 +65,3 @@ https://github.com/in28minutes/spring-microservices-v2/tree/main/04.docker
 ===================junit and mockito--hamcrest===============
 https://github.com/kousen/mockito-hamcrest
 
-
-spring official projects
-==========================
-https://github.com/spring-projects/
